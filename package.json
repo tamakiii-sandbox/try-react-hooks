@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "tamakiii <tamakiii@users.noreply.github.com>",
   "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --host 0.0.0.0 --port 8888 --hot"
+  },
   "dependencies": {
     "@types/node": "^10.12.18",
     "@types/react": "^16.7.18",
